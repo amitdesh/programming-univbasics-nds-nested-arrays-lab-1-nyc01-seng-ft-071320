@@ -45,6 +45,6 @@ def matrix_update(matrix, row, column, new_value)
   # Update the matrix location at that row and column to have the value of new_value
   # Return the updated matrix
     matrix = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
-  matrix [0][3] = "Cherry"
+  matrix [row][column] = new_value
   return matrix
 end
